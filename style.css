@@ -4,6 +4,7 @@ body {
 
 #iconz {
     color: #770909;
+    padding: 2px;
 }
 
 #aboutmecontainer {
@@ -16,7 +17,20 @@ body {
     background-color: rgba(0, 0, 0, 0.48);
 }
 
-#resumebackground {
+#backgroundallpages {
     background-color: #292828;
-    
+}
+
+.parallax-a {
+    /* The image used */
+    background-image: url("w3landscape2.png");
+    overflow: hidden;
+    /* Set a specific height */
+    height: 800px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
 }
